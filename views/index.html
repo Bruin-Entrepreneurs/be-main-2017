@@ -16,12 +16,13 @@
         <div class = "header-container">
           <h1>WE ARE</h1>
           <h2>BRUIN<span style = "color: #ffffff">ENTREPRENEURS.</span></h2>
-          <button id = "join-button">LEARN MORE</button>
+          <a href="#about"><button id = "join-button">LEARN MORE</button></a>
         </div>
       </div>
 
       <div class = "right-align">
-<!--         images go here-->      
+        <div class="top"></div>  
+        <div class="bottom"></div>   
       </div>
     </div>
 
@@ -61,8 +62,8 @@
 
           <div class = "LA-cont">
             <div class = "rectangleLAHACKS wide">
-              <a href="https://lahacks.com/"><h4>LA HACKS</h4></a>
-            </div>             
+              <a href="lahacks.com"><h4>LA HACKS</h4></a>
+            </div>
           </div>
  
 
@@ -96,8 +97,10 @@
         </div>
         <div class="sign-up-cont">
           <div class="sign-up">
-            <input class = "text-input" type="text">
-            <div class = "button" type="text">SIGN UP</div>
+            <form id="emailForm">
+              <input class = "text-input" type="text" name = "emailform">
+              <input class = "button" type="submit"> 
+            </form>
           </div>
         </div>
       </div>
@@ -113,7 +116,7 @@
           <a href="http://startuplabs.bruinentrepreneurs.org/"><h6>STARTUP LABS</h6></a>
         </div>
         <div class="link-child">
-          <a href=""><h6>LA HACKS</h6></a>
+          <a href="lahacks.com"><h6>LA HACKS</h6></a>
         </div>
         <div class="link-child">
           <a href="http://uclacreatives.github.io/"><h6>CREATIVE LABS</h6></a>
@@ -130,6 +133,7 @@
 
     </div>
 
-
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/main.js"></script>
   </body>
 </html>

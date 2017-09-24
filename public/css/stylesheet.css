@@ -84,6 +84,10 @@ a:hover {
   color: #527edd;
 }
 
+button:focus, button:hover{
+  outline: 0px solid black;
+}
+
 
 /*-----------------LANDING PAGE------------------*/
 
@@ -131,8 +135,22 @@ a:hover {
   background-color: lightgray;
   margin: 0 0 0 0;
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
+.top{
+  flex:1;
+  background-image: url("../assets/images/be_4.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.bottom{
+  flex:1;
+  background-image: url("../assets/images/be_3.jpg");
+  background-size: cover;
+  background-position: center;
 
+}
 
 /*-----------------SECOND PAGE------------------*/
 
@@ -150,6 +168,9 @@ a:hover {
   background-color: lightgray;
   margin: 0 0 0 0;
   position: relative;
+  background-image: url("../assets/images/be_1.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .second-page .right-align{
@@ -184,6 +205,10 @@ a:hover {
   background-color: lightgray;
   margin: 0 0 0 0;
   position: relative;
+  background-image: url("../assets/images/be_5.jpg");
+  background-size: cover;
+  background-position: center;
+
 }
 
 .third-page .left-align{
@@ -298,6 +323,10 @@ a:hover {
   display: flex;
 }
 
+#emailForm{
+  width: 100%;
+  display: flex;
+}
 .sign-up{
   width: 80%;
   background-color: white;
