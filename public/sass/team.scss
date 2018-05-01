@@ -1,0 +1,98 @@
+$be-blue: #072956;
+$off-white: #F5F1ED;
+$be-pink: #F2758F;
+$be-beige: #F5F1ED;
+
+body {
+	width: 100%;
+  	margin: 0 0 0 0;
+}
+
+#header {
+	width: 100%;
+	height: 450px;
+	background-color: $be-blue;
+}
+
+.topButton {
+	color: $off-white;
+	float: left;
+	font-weight: 600;
+}
+
+#randomRedBar {
+	background-color: $be-pink;
+	width: 60px;
+	height: 17px;
+	position: absolute;
+	top: 60px;
+	left: 226px;
+}
+
+/*
+#topButtons {
+	width: 100%;
+	height: 100px;
+	background-color: blue;
+}
+*/
+
+#leftie {
+}
+
+#rightie {
+}
+
+#meetUs {
+	color: #C0E0C2;
+	font-size: 75px;
+	clear: both;
+	min-width: 750px;
+	margin-top: 50px;
+}
+
+#meetLorem {
+	color: #F5F1ED;
+	font-style: normal;
+	margin-top: 20px;
+	font-size: 20pt;
+	max-width: 1000px;
+	min-width: 500px;
+}
+
+.mid {
+	background-color: $be-beige;
+	width: 100%;
+	height: 500px;
+}
+
+.flexin {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	// justify-content: center;
+}
+
+.box {
+	img {
+		width: 50px;
+		height: 50px;
+	}
+
+	flex-basis: 100px;
+	margin: 15 px;
+	background-color: grey;
+	// float: left;
+}
+
+.content-outer {
+	display: flex;
+
+	.content-inner {
+		flex: 5;
+	}
+	.space {
+		flex: 1;
+	}
+}
+
