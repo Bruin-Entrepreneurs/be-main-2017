@@ -4,50 +4,64 @@
     <meta charset="utf-8">
     <title>Bruin Entrepreneurs</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="../public/css/stylesheet.css">
-    <link rel="stylesheet" type="text/css" href="../public/css/responsive2.css">
+     <link rel="stylesheet" type="text/css" href="../public/css/stylesheet.css">
     <link rel="stylesheet" type="text/css" href="../public/css/team.css">
-    <style>
-
-    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="a.js"> </script>
   </head>
   <body>
 
-    <div id="header">
-      <div id="topButtons">
+  <script> init_topButtons(); </script>
+
+
+    <div class="layoutFlex">
+      <div class="sideSpace">
+        <div class="topSpace"> </div>
+        <div class="bottomSpace"> </div>
       </div>
+      <div id="middleFlex">
+        <div id="header">
+          <div id="topButtons">
+          </div>
 
-      <h3 class="topButton"> Home </h3>
-      <h3 class="topButton" style="margin-left: 40px;"> Team </h3>
-      <div id="randomRedBar"> </div>
+          <h3 id="home" class="topButton"> Home </h3>
+          <h3 id="team" class="topButton"> Team </h3>
+          <!-- <div class="randomRedBar"> </div> -->
 
-      <img id="leftie" src="../public/assets/left.png" height="100px" width="100px" alt="">
-      <img id="leftie" src="../public/assets/right.png" height="100px" width="100px" alt="">
+          <!-- <img id="leftie" src="../public/assets/left.png" height="100px" width="100px" alt="">
+          <img id="right" src="../public/assets/right.png" height="100px" width="100px" alt=""> -->
 
-      <h1 id="meetUs"> Meet Our Team </h1>
-      <p id="meetLorem"> Habadee Lopatee dobade lights on. The cow then ran to the farm, ruined a mansion, but the owner was still happy regardless of the circumstances. Scroll down to meet the team! </p>
-    </div>
+          <h1 id="meetUs"> Meet Our Team </h1>
+          <p id="meetLorem"> Habadee Lopatee dobade lights on. The cow then ran to the farm, ruined a mansion, but the owner was still happy regardless of the circumstances. Scroll down to meet the team! </p>
+        </div>
 
-    <div id="mid">
-      <div id="flexin"> 
-        <div class="box"> </div>
-        <div class="box"> </div>
-        <div class="box"> </div>
-        <div class="box"> </div>
-        <div class="box"> </div>
-        <div class="box"> </div>
-        <div class="box"> </div>
-        <div class="box"> </div>
-        <div class="box"> </div>
-        <div class="box"> </div>
-        <div class="box"> </div>
-        <div class="box"> </div>
-        <div class="box"> </div>
-        <div class="box"> </div>
+        <div id="mid">
+          <div id="flexin"> 
+            <div class="box"> </div>
+            <div class="box"> </div>
+            <div class="box"> </div>
+            <div class="box"> </div>
+            <div class="box"> </div>
+            <div class="box"> </div>
+            <div class="box"> </div>
+            <div class="box"> </div>
+            <div class="box"> </div>
+            <div class="box"> </div>
+            <div class="box"> </div>
+            <div class="box"> </div>
+            <div class="box"> </div>
+            <div class="box"> </div>
+          </div>
+
+        </div>
       </div>
-    </div>
+       <div class="sideSpace">
+        <div class="topSpace"> </div>
+        <div class="bottomSpace"> </div>
+      </div>
+    </div>   
 
-    <div class = "footer">
+     <div class = "footer">
       <div class = "link-container">
         <div class="link-child">
           <a href="#about"><h6>ABOUT US</h6></a>
@@ -70,10 +84,8 @@
         <h2>BRUIN <span style = "color: #ffffff">ENTREPRENEURS.</span></h2>
         <p>Made with love from <span style="color:#F2758F">LA</span></p>
       </div>
-
     </div>
 
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="../js/main.js"></script>
+    <script> init_topButtons(); </script>
   </body>
 </html>

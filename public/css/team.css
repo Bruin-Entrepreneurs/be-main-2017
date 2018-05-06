@@ -1,24 +1,57 @@
+body {
+  width: 100%;
+  margin: 0 0 0 0; }
+
+.layoutFlex {
+  display: flex;
+  background-color: lightblue; }
+
+.sideSpace {
+  width: 100px;
+  flex-grow: 2;
+  height: auto;
+  min-width: 50px; }
+
+.topSpace {
+  background-color: #072956;
+  height: 450px;
+  width: 700px; }
+
+.bottomSpace {
+  background-color: #F5F1ED;
+  height: 500px;
+  width: 100%; }
+
+#middleFlex {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column; }
+
 #header {
-	width: 100%;
-	height: 450px;
-	background-color: #072956;
-}
+  width: 100%;
+  height: 450px;
+  background-color: #072956; }
 
-	.topButton {
-		color: #F5F1ED;
-		margin-left: 80px;
-		float: left;
-		font-weight: 600;
-	}
+.topButton {
+  color: #F5F1ED;
+  float: left;
+  font-weight: 600;
+  margin-right: 20px; }
 
-	#randomRedBar {
-		background-color: #F2758F;
-		width: 60px;
-		height: 17px;
-		position: absolute;
-		top: 60px;
-		left: 226px;
-	}
+.randomRedBar {
+  background-color: #F2758F;
+  width: 0px;
+  opacity: 0.5;
+  height: 17px;
+  position: absolute;
+  display: block; }
+
+.bottomRed {
+  background-color: red;
+  height: 100px;
+  width: 100%;
+  float: left; }
+
 /*
 	#topButtons {
 		width: 100%;
@@ -26,52 +59,137 @@
 		background-color: blue;
 	}
 */
-	#leftie {
-	}
+#meetUs {
+  color: #C0E0C2;
+  font-size: 75px;
+  clear: both;
+  min-width: 750px;
+  margin-top: 50px; }
 
-	#rightie {
-	}
-
-	#meetUs {
-		color: #C0E0C2;
-		font-size: 75px;
-		margin-left: 80px;
-		clear: both;
-		min-width: 750px;
-		margin-top: 50px;
-	}
-
-	#meetLorem {
-		color: #F5F1ED;
-		font-style: normal;
-		margin-top: 20px;
-		font-size: 20pt;
-		margin-left: 80px;
-		max-width: 1000px;
-		min-width: 500px;
-	}
+#meetLorem {
+  color: #F5F1ED;
+  font-style: normal;
+  margin-top: 20px;
+  font-size: 20pt;
+  max-width: 1000px;
+  min-width: 500px; }
 
 #mid {
-	background-color: #F5F1ED;
+  background-color: green;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  vertical-align: center;
+  justify-content: center; }
+
+#flexin {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -60px;
+  vertical-align: center;
+  justify-content: center;
+  max-width: 1500px;
+  background-color: blue; }
+
+.box {
+  width: 100px;
+  /*min-width: 100px;
+  max-width: 100px;*/
+  height: 100px;
+  /*min-height: 100px;
+  max-height: 100px;*/
+  flex-basis: 100px;
+  margin: 20px;
+  background-color: red; }
+
+/*
+#header {
+	width: 100%;
+	height: 450px;
+	background-color: $be-blue;
+}
+
+.topButton {
+	color: $off-white;
+	float: left;
+	font-weight: 600;
+}
+
+#randomRedBar {
+	background-color: $be-pink;
+	width: 60px;
+	height: 17px;
+	position: absolute;
+	top: 60px;
+	left: 226px;
+}
+
+/*
+#topButtons {
+	width: 100%;
+	height: 100px;
+	background-color: blue;
+}
+*/
+/*
+#leftie {
+}
+
+#rightie {
+}
+
+#meetUs {
+	color: #C0E0C2;
+	font-size: 75px;
+	clear: both;
+	min-width: 750px;
+	margin-top: 50px;
+}
+
+#meetLorem {
+	color: #F5F1ED;
+	font-style: normal;
+	margin-top: 20px;
+	font-size: 20pt;
+	max-width: 1000px;
+	min-width: 500px;
+}
+
+.mid {
+	background-color: $be-beige;
 	width: 100%;
 	height: 500px;
 }
 
-	#flexin {
-		display: flex;
-		flex-wrap: wrap;
+.flexin {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	// justify-content: center;
+}
+
+.box {
+	img {
+		width: 50px;
+		height: 50px;
 	}
 
-		.box {
-			width: 100px;
-			/*min-width: 100px;
-			max-width: 100px;*/
-			height: 100px;
-			/*min-height: 100px;
-			max-height: 100px;*/
-			flex-basis: 100px;
-			margin: 20px;
-			background-color: red;
+	flex-basis: 100px;
+	margin: 15 px;
+	background-color: grey;
+	// float: left;
+}
 
-		}
+.content-outer {
+	display: flex;
 
+	.content-inner {
+		flex: 5;
+	}
+	.space {
+		flex: 1;
+	}
+}
+*/
+
+/*# sourceMappingURL=team.css.map */
